@@ -105,10 +105,8 @@ Open the project folder and run the class `FoodMS.FoodMS`.
 
 ## Author
 
-**Mohammad Razin Masud**  
-ID: `243014111`  
+**Mohammad Razin Masud**    
 Course: Object Oriented Programming Lab (`CSE 2104`)  
-Section: 3 | Semester: Fall 2025  
 University of Liberal Arts Bangladesh  
 
 Submitted to: **Jannatul Ferdous Ruma**, Lecturer, Department of CSE
