@@ -1,0 +1,30 @@
+# Maven
+target/
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Compiled
+*.class
+out/
+bin/
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

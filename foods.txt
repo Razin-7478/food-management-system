@@ -1,0 +1,14 @@
+1,burger,100.0,12
+2,pizza,500.0,4
+3,Shwarma,80.0,15
+4,roll,30.0,50
+5,shingara,10.0,60
+6,samosa,10.0,60
+7,pudding,50.0,16
+8,sandwich,50.0,20
+9,fries,50.0,5
+10,Chicken fry,80.0,14
+11,cold coffee,60.0,13
+12,hot coffee,40.0,17
+13,black coffee,40.0,11
+14,kacchi,350.0,12
