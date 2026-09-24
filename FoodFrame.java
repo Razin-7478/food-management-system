@@ -277,6 +277,12 @@ public class FoodFrame extends JFrame {
                 showError("Price and quantity cannot be negative.");
                 return;
             }
+            for (Item existing : items) {
+                if (existing.getId().equalsIgnoreCase(id)) {
+                    showError("An item with this ID already exists.");
+                    return;
+                }
+            }
 
             items.add(new Food(id, name, price, qty));
             refreshTable();
