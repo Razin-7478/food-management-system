@@ -21,6 +21,9 @@ dist/
 nbdist/
 *.swp
 *~
+.classpath
+.project
+.settings/
 
 # OS
 .DS_Store
