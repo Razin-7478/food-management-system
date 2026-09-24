@@ -115,4 +115,4 @@ Submitted to: **Jannatul Ferdous Ruma**, Lecturer, Department of CSE
 
 ## License
 
-Released under the [MIT License](LICENSE).
+No license specified — academic/personal project.Released under the [MIT License](LICENSE).
