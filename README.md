@@ -4,12 +4,12 @@ A clean, modern **GUI-based Food Inventory Management** application built with *
 
 Demonstrates the four pillars of Object-Oriented Programming:
 
-| Concept         | How it is applied                                      |
-|-----------------|--------------------------------------------------------|
-| **Encapsulation** | Private fields + public getters/setters               |
-| **Inheritance**   | `Food extends Item`                                    |
-| **Polymorphism**  | `ArrayList<Item>` holds `Food` objects; `totalValue()` is called polymorphically |
-| **Abstraction**   | Abstract method `totalValue()` declared in `Item`     |
+| Concept           | How it is applied                                                                 |
+|-------------------|-----------------------------------------------------------------------------------|
+| **Encapsulation** | Private fields + public getters/setters                                           |
+| **Inheritance**   | `Food extends Item`                                                               |
+| **Polymorphism**  | `ArrayList<Item>` holds `Food` objects; `totalValue()` is called polymorphically  |
+| **Abstraction**   | Abstract method `totalValue()` declared in `Item`                                 |
 
 ---
 
@@ -19,20 +19,20 @@ Demonstrates the four pillars of Object-Oriented Programming:
 Welcome Screen  →  Login  →  Main Inventory Dashboard
 ```
 
-- **Welcome** – Dark professional landing page  
-- **Login** – Password protected (`razin`)  
-- **Dashboard** – Add / Update / Delete items + live table with Total Value  
+- **Welcome** – Dark professional landing page
+- **Login** – Password protected (`razin`)
+- **Dashboard** – Add / Update / Delete items + live table with Total Value
 
 ---
 
 ## Features
 
-- Modern dark UI with teal accents  
-- Add, Update, Delete food items  
-- Live table showing **Total Value** (price × quantity)  
-- Click any row to edit  
-- Data auto-saves to `foods.txt` and loads on startup  
-- Input validation (empty fields, negative values, number format)  
+- Modern dark UI with teal accents
+- Add, Update, Delete food items
+- Live table showing **Total Value** (price × quantity)
+- Click any row to edit
+- Data auto-saves to `foods.txt` and loads on startup
+- Input validation (empty fields, negative values, number format, duplicate IDs)
 
 ---
 
@@ -47,7 +47,7 @@ food-management-system/
 │   ├── LoginFrame.java      # Authentication
 │   ├── FoodFrame.java       # Main dashboard
 │   └── FoodMS.java          # Entry point
-├── foods.txt                # Persistent data
+├── foods.txt                # Persistent data (created/updated at runtime)
 ├── pom.xml                  # Maven configuration
 ├── README.md
 ├── LICENSE
@@ -79,7 +79,7 @@ javac -d out src/main/java/FoodMS/*.java
 java -cp out FoodMS.FoodMS
 ```
 
-### NetBeans / IntelliJ
+### NetBeans / IntelliJ / VS Code
 
 Open the project folder and run the class `FoodMS.FoodMS`.
 
@@ -87,8 +87,8 @@ Open the project folder and run the class `FoodMS.FoodMS`.
 
 ## Login Credentials
 
-| Field    | Value  |
-|----------|--------|
+| Field    | Value   |
+|----------|---------|
 | Password | `razin` |
 
 ---
@@ -105,7 +105,7 @@ Open the project folder and run the class `FoodMS.FoodMS`.
 
 ## Author
 
-**Mohammad Razin Masud**    
+**Mohammad Razin Masud**  
 Course: Object Oriented Programming Lab (`CSE 2104`)  
 University of Liberal Arts Bangladesh  
 

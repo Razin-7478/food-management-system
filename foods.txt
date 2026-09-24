@@ -1,6 +1,6 @@
 1,burger,100.0,12
 2,pizza,500.0,4
-3,Shwarma,80.0,15
+3,Shawarma,80.0,15
 4,roll,30.0,50
 5,shingara,10.0,60
 6,samosa,10.0,60
